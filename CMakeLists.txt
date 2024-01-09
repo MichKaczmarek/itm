@@ -49,7 +49,7 @@ set_property(TARGET itmlib PROPERTY CXX_STANDARD 14)
 set_target_properties(itmlib PROPERTIES PUBLIC_HEADER include/itm.h)
 set_target_properties(itmlib PROPERTIES PUBLIC_HEADER include/Enums.h)
 set_target_properties(itmlib PROPERTIES PUBLIC_HEADER include/Errors.h)
-set_target_properties(itmlib PROPERTIES PUBLIC_HEADER include/Warnigns.h)
+set_target_properties(itmlib PROPERTIES PUBLIC_HEADER include/Warnings.h)
 
 # Only Cmake 3.20+ provides platform independent way to construct paths
 IF (${CMAKE_MAJOR_VERSION}.${CMAKE_MINOR_VERSION} GREATER_EQUAL 3.20)
